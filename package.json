@@ -1,14 +1,30 @@
 {
-  "name": "yt-transcript",
+  "name": "yt-transcript-fetcher",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "A simple and efficient YouTube transcript fetcher that extracts captions in multiple formats (JSON, TXT, XML) with support for different languages.",
+  "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "types": "dist/index.d.ts",
+  "keywords": [
+    "youtube transcript",
+    "youtube",
+    "transcript",
+    "captions",
+    "yt transcript"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/syeddhasnainn/yt-transcript"
+  },
+  "author": "Syed Hasnain",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/syeddhasnainn/yt-transcript/issues"
+  },
+  "homepage": "https://github.com/syeddhasnainn/yt-transcript#readme",
   "packageManager": "pnpm@10.11.0",
   "devDependencies": {
     "typescript": "^5.9.2"
